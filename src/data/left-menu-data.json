@@ -1,0 +1,71 @@
+{
+  "leftMenuItems": {
+    "default": [
+      {
+        "id": 1,
+        "title": {
+          "en": "Books",
+          "fa": "کتاب‌ها"
+        },
+        "iconHeader": "/img/icons/side-menu/image.webp",
+        "bgImage": "/img/icons/pictures/bg-picture-menu.webp",
+        "iconSrc": "/img/icons/side-menu/top-icon-card-window-active.webp",
+        "bgColor": "bg-solitude-blue",
+        "headerActive": true,
+        "subtasks": []
+      },
+      {
+        "id": 2,
+        "title": {
+          "en": "Courses",
+          "fa": "دوره‌ها"
+        },
+        "iconHeader": "/img/icons/side-menu/image.webp",
+        "bgImage": "/img/icons/pictures/bg-picture-menu.webp",
+        "iconSrc": "/img/icons/side-menu/top-icon-card-window-active.webp",
+        "bgColor": "bg-solitude-blue",
+        "headerActive": true,
+        "subtasks": []
+      },
+      {
+        "id": 3,
+        "title": {
+          "en": "Podcasts",
+          "fa": "پادکست‌ها"
+        },
+        "iconHeader": "/img/icons/side-menu/image.webp",
+        "bgImage": "/img/icons/pictures/bg-picture-menu.webp",
+        "iconSrc": "/img/icons/side-menu/top-icon-card-window-active.webp",
+        "bgColor": "bg-solitude-blue",
+        "headerActive": true,
+        "subtasks": []
+      },
+      {
+        "id": 4,
+        "title": {
+          "en": "Startups",
+          "fa": "استارتاپ‌ها"
+        },
+        "iconHeader": "/img/icons/side-menu/image.webp",
+        "bgImage": "/img/icons/pictures/bg-picture-menu.webp",
+        "iconSrc": "/img/icons/side-menu/top-icon-card-window-active.webp",
+        "bgColor": "bg-solitude-blue",
+        "headerActive": true,
+        "subtasks": []
+      },
+      {
+        "id": 5,
+        "title": {
+          "en": "Translated Articles",
+          "fa": "مقاله‌های ترجمه شده"
+        },
+        "iconHeader": "/img/icons/side-menu/image.webp",
+        "bgImage": "/img/icons/pictures/bg-picture-menu.webp",
+        "iconSrc": "/img/icons/side-menu/top-icon-card-window-active.webp",
+        "bgColor": "bg-solitude-blue",
+        "headerActive": true,
+        "subtasks": []
+      }
+    ]
+  }
+}

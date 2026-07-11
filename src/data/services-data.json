@@ -1,0 +1,510 @@
+{
+  "categories": [
+    {
+      "name": {
+        "en": "Web Development",
+        "fa": "توسعه وب"
+      },
+      "services": [
+        {
+          "name": {
+            "en": "Portfolio Website",
+            "fa": "سایت نمونه کار"
+          },
+          "description": {
+            "en": "Custom portfolio website to showcase your projects",
+            "fa": "سایت نمونه کار شخصی برای نمایش پروژه‌های شما"
+          },
+          "icon": "services/portfolio-icon-lg.webp",
+          "price": "3500-7000",
+          "duration": {
+            "en": "2-4 weeks",
+            "fa": "۲-۴ هفته"
+          },
+          "features": {
+            "en": [
+              "Custom portfolio website designed around your profile and goals",
+              "Clear presentation of your work, projects, or achievements",
+              "Professional design adapted to mobile, tablet, and desktop",
+              "Fast-loading pages for a smooth browsing experience",
+              "Simple contact section or contact form",
+              "Basic SEO setup so your portfolio can be found online",
+              "Professional email address setup (e.g. hello@yourname.com)",
+              "Guidance on updating your content after delivery",
+              "Documentation and handover"
+            ],
+            "fa": [
+              "سایت نمونه کار شخصی طراحی شده بر اساس پروفایل و اهداف شما",
+              "ارائه واضح کارها، پروژه‌ها یا دستاوردهای شما",
+              "طراحی حرفه‌ای سازگار با موبایل، تبلت و دسکتاپ",
+              "صفحات با بارگذاری سریع برای تجربه مرور روان",
+              "بخش تماس ساده یا فرم تماس",
+              "تنظیمات اولیه SEO برای دیده شدن نمونه کار شما در اینترنت",
+              "راه‌اندازی آدرس ایمیل حرفه‌ای (مثلا hello@yourname.com)",
+              "راهنمایی برای به‌روزرسانی محتوا پس از تحویل",
+              "مستندات و تحویل"
+            ]
+          }
+        },
+        {
+          "name": {
+            "en": "Business Website",
+            "fa": "سایت شرکتی"
+          },
+          "description": {
+            "en": "Professional website for your business",
+            "fa": "سایت حرفه‌ای برای کسب‌وکار شما"
+          },
+          "icon": "services/business-website-icon-lg.webp",
+          "price": "3500-10500",
+          "duration": {
+            "en": "2-6 weeks",
+            "fa": "۲-۶ هفته"
+          },
+          "features": {
+            "en": [
+              "Custom professional website adapted to your business",
+              "Clear presentation of your services, company, and contact information",
+              "Modern and mobile-friendly design",
+              "Fast-loading pages for a smooth visitor experience",
+              "Basic SEO setup to help your website appear on Google",
+              "Secure website setup and best practices",
+              "Contact form or inquiry form for customers",
+              "Professional email address setup (e.g. contact@yourbusiness.com)",
+              "Easy content updates with guidance provided",
+              "Documentation and handover"
+            ],
+            "fa": [
+              "سایت حرفه‌ای شخصی سازی شده متناسب با کسب‌وکار شما",
+              "ارائه واضح خدمات، شرکت و اطلاعات تماس شما",
+              "طراحی مدرن و سازگار با موبایل",
+              "صفحات با بارگذاری سریع برای تجربه مرور روان بازدیدکنندگان",
+              "تنظیمات اولیه SEO برای دیده شدن سایت در گوگل",
+              "راه‌اندازی امن سایت و رعایت بهترین روش‌ها",
+              "فرم تماس یا فرم درخواست اطلاعات برای مشتریان",
+              "راه‌اندازی آدرس ایمیل حرفه‌ای (مثلا contact@yourbusiness.com)",
+              "به‌روزرسانی آسان محتوا با ارائه راهنمایی",
+              "مستندات و تحویل"
+            ]
+          }
+        },
+        {
+          "name": {
+            "en": "E-commerce Website",
+            "fa": "سایت فروشگاهی"
+          },
+          "description": {
+            "en": "Full-featured online store",
+            "fa": "فروشگاه آنلاین کامل"
+          },
+          "icon": "services/ecommerce-icon-lg.webp",
+          "price": "9900-20000",
+          "duration": {
+            "en": "6-12 weeks",
+            "fa": "۶-۱۲ هفته"
+          },
+          "features": {
+            "en": [
+              "Custom online store designed for your business",
+              "Easy-to-manage product catalog (add, edit, remove products)",
+              "Secure online payments (credit card and common payment methods)",
+              "Order management and customer notifications",
+              "Mobile-friendly design that works on all devices",
+              "Fast-loading pages for a smooth shopping experience",
+              "SEO optimization to improve search engine visibility",
+              "Secure website setup and best practices",
+              "Professional email address setup (e.g. contact@yourbusiness.com)",
+              "Analytics setup to track user behavior and sales using Matomo (GDPR compliant)",
+              "Training and documentation to manage your store independently"
+            ],
+            "fa": [
+              "فروشگاه آنلاین شخصی سازی شده برای کسب‌وکار شما",
+              "مدیریت آسان کاتالوگ محصولات (افزودن، ویرایش، حذف محصولات)",
+              "پرداخت‌های آنلاین امن (کارت اعتباری و روش‌های رایج پرداخت)",
+              "مدیریت سفارشات و اعلان‌های مشتری",
+              "طراحی سازگار با موبایل که روی همه دستگاه‌ها کار می‌کند",
+              "صفحات با بارگذاری سریع برای تجربه خرید روان",
+              "بهینه‌سازی SEO برای بهبود دیده شدن در موتورهای جستجو",
+              "راه‌اندازی امن سایت و رعایت بهترین روش‌ها",
+              "راه‌اندازی آدرس ایمیل حرفه‌ای (مثلا contact@yourbusiness.com)",
+              "راه‌اندازی تحلیلگر برای ردیابی رفتار کاربران و فروش با Matomo (مطابق با GDPR)",
+              "آموزش و مستندات برای مدیریت مستقل فروشگاه"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Mobile Development",
+        "fa": "توسعه موبایل"
+      },
+      "services": [
+        {
+          "name": {
+            "en": "Progressive Web App (PWA)",
+            "fa": "برنامه وب پیشرو (PWA)"
+          },
+          "description": {
+            "en": "Cross-platform app that works on all devices",
+            "fa": "برنامه چندسکویی که روی همه دستگاه‌ها کار می‌کند"
+          },
+          "icon": "services/pwa-icon-lg.webp",
+          "price": "5600-9800",
+          "duration": {
+            "en": "4-8 weeks",
+            "fa": "۴-۸ هفته"
+          },
+          "features": {
+            "en": [
+              "Progressive Web App compliant with modern PWA standards",
+              "Installable on desktop and mobile devices",
+              "Offline support using service workers",
+              "Fast loading and optimized performance",
+              "Responsive design for all screen sizes",
+              "Cross-platform compatibility (mobile, tablet, desktop)",
+              "API integration and backend communication",
+              "Secure configuration and best practices",
+              "SEO-friendly and indexable",
+              "Documentation and handover"
+            ],
+            "fa": [
+              "برنامه وب پیشرو مطابق با استانداردهای مدرن PWA",
+              "قابل نصب روی دسکتاپ و دستگاه‌های موبایل",
+              "پشتیبانی آفلاین با استفاده از service workers",
+              "بارگذاری سریع و عملکرد بهینه",
+              "طراحی واکنش‌گرا برای همه اندازه‌های صفحه",
+              "سازگاری چندسکویی (موبایل، تبلت، دسکتاپ)",
+              "ادغام API و ارتباط با بک‌اند",
+              "پیکربندی امن و بهترین روش‌ها",
+              "سازگار با SEO و قابل ایندکس شدن",
+              "مستندات و تحویل"
+            ]
+          }
+        },
+        {
+          "name": {
+            "en": "Mobile Application",
+            "fa": "اپلیکیشن موبایل"
+          },
+          "description": {
+            "en": "Native or hybrid mobile application",
+            "fa": "اپلیکیشن موبایل بومی یا ترکیبی"
+          },
+          "icon": "services/mobile-icon-lg.webp",
+          "price": "11200-22400",
+          "duration": {
+            "en": "8-16 weeks",
+            "fa": "۸-۱۶ هفته"
+          },
+          "features": {
+            "en": [
+              "Custom mobile application tailored to business requirements",
+              "Native (iOS / Android) or cross-platform development",
+              "Clean and scalable application architecture",
+              "Responsive and user-friendly UI implementation",
+              "API integration and backend communication",
+              "Authentication and user management",
+              "Local data storage and offline support",
+              "Performance optimization and testing",
+              "App store preparation and deployment support",
+              "Technical documentation and handover"
+            ],
+            "fa": [
+              "اپلیکیشن موبایل شخصی سازی شده بر اساس نیازهای کسب‌وکار",
+              "توسعه بومی (iOS/Android) یا چندسکویی",
+              "معماری تمیز و مقیاس‌پذیر برنامه",
+              "پیاده‌سازی UI واکنش‌گرا و کاربرپسند",
+              "ادغام API و ارتباط با بک‌اند",
+              "احراز هویت و مدیریت کاربران",
+              "ذخیره‌سازی محلی داده و پشتیبانی آفلاین",
+              "بهینه‌سازی عملکرد و تست",
+              "آماده‌سازی برای فروشگاه اپلیکیشن و پشتیبانی از استقرار",
+              "مستندات فنی و تحویل"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "DevOps & Infrastructure",
+        "fa": "دواپس و زیرساخت"
+      },
+      "services": [
+        {
+          "name": {
+            "en": "CI/CD Pipeline Setup",
+            "fa": "راه‌اندازی خط لوله CI/CD"
+          },
+          "description": {
+            "en": "Automated deployment and testing pipeline",
+            "fa": "خط لوله استقرار و تست خودکار"
+          },
+          "icon": "services/pipeline-icon-lg.webp",
+          "price": "1750-3500",
+          "duration": {
+            "en": "1-2 weeks",
+            "fa": "۱-۲ هفته"
+          },
+          "features": {
+            "en": [
+              "Custom CI/CD pipeline tailored to project requirements",
+              "Automated build, test, and deployment workflows",
+              "Integration with GitHub Actions, GitLab CI, or similar platforms",
+              "Environment-based deployments (staging, production)",
+              "Pipeline failure alerts and notifications",
+              "Optimized build performance using caching and parallel jobs",
+              "Secure management of secrets and environment variables",
+              "Rollback strategy for failed deployments",
+              "Clear documentation and handover"
+            ],
+            "fa": [
+              "خط لوله CI/CD شخصی سازی شده بر اساس نیازهای پروژه",
+              "گردش کار خودکار ساخت، تست و استقرار",
+              "ادغام با GitHub Actions، GitLab CI یا پلتفرم‌های مشابه",
+              "استقرار بر اساس محیط (staging، production)",
+              "هشدارها و اعلان‌های شکست خط لوله",
+              "عملکرد بهینه ساخت با استفاده از کش و کارهای موازی",
+              "مدیریت امن اسرار و متغیرهای محیطی",
+              "استراتژی بازگشت به حالت قبل برای استقرارهای ناموفق",
+              "مستندات واضح و تحویل"
+            ]
+          }
+        },
+        {
+          "name": {
+            "en": "Server Configuration",
+            "fa": "پیکربندی سرور"
+          },
+          "description": {
+            "en": "Server setup and optimization",
+            "fa": "راه‌اندازی و بهینه‌سازی سرور"
+          },
+          "icon": "cmd-icon-lg.webp",
+          "price": "1050-2450",
+          "duration": {
+            "en": "3-7 days",
+            "fa": "۳-۷ روز"
+          },
+          "features": {
+            "en": [
+              "Linux server installation and initial setup (Ubuntu, Debian, Fedora)",
+              "Secure server hardening (firewall, SSH, fail2ban)",
+              "Web server configuration (Nginx or Apache)",
+              "SSL/TLS certificate setup (HTTPS)",
+              "Performance optimization and resource tuning",
+              "Docker / Docker compose setup",
+              "Database setup (PostgreSQL, MySQL, Redis)",
+              "Automated backups setup",
+              "Basic monitoring and logging configuration",
+              "Deployment-ready setup for applications",
+              "Documentation and handover instructions"
+            ],
+            "fa": [
+              "نصب و راه‌اندازی اولیه سرور لینوکس (Ubuntu، Debian، Fedora)",
+              "ایمن‌سازی امن سرور (فایروال، SSH، fail2ban)",
+              "پیکربندی سرور وب (Nginx یا Apache)",
+              "راه‌اندازی گواهی SSL/TLS (HTTPS)",
+              "بهینه‌سازی عملکرد و تنظیم منابع",
+              "راه‌اندازی Docker / Docker compose",
+              "راه‌اندازی پایگاه داده (PostgreSQL، MySQL، Redis)",
+              "راه‌اندازی پشتیبان‌گیری خودکار",
+              "پیکربندی مانیتورینگ و لاگ‌گیری اولیه",
+              "آماده‌سازی برای استقرار برنامه‌ها",
+              "مستندات و دستورالعمل‌های تحویل"
+            ]
+          }
+        },
+        {
+          "name": {
+            "en": "Docker & Containerization",
+            "fa": "داکر و کانتینری‌سازی"
+          },
+          "description": {
+            "en": "Containerize your applications",
+            "fa": "کانتینری‌سازی برنامه‌های شما"
+          },
+          "icon": "services/docker-icon-lg.webp",
+          "price": "1750-3500",
+          "duration": {
+            "en": "1-2 weeks",
+            "fa": "۱-۲ هفته"
+          },
+          "features": {
+            "en": [
+              "Application containerization using Docker",
+              "Custom Dockerfile creation adapted to the application stack",
+              "Multi-stage builds for smaller and more secure images",
+              "Docker Compose setup for local and production environments",
+              "Environment variable and secrets management",
+              "Optimized image size and startup performance",
+              "Container networking and volume configuration",
+              "Best practices for security and maintainability",
+              "Documentation and usage instructions"
+            ],
+            "fa": [
+              "کانتینری‌سازی برنامه با استفاده از Docker",
+              "ایجاد Dockerfile شخصی سازی شده متناسب با پشته برنامه",
+              "ساخت چندمرحله‌ای برای تصاویر کوچکتر و امن‌تر",
+              "راه‌اندازی Docker Compose برای محیط‌های محلی و تولید",
+              "مدیریت متغیرهای محیطی و اسرار",
+              "بهینه‌سازی اندازه تصویر و عملکرد راه‌اندازی",
+              "پیکربندی شبکه و حجم‌های کانتینر",
+              "بهترین روش‌ها برای امنیت و قابلیت نگهداری",
+              "مستندات و دستورالعمل‌های استفاده"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hosting & Maintenance",
+        "fa": "میزبانی و نگهداری"
+      },
+      "services": [
+        {
+          "name": {
+            "en": "Web Hosting",
+            "fa": "میزبانی وب"
+          },
+          "description": {
+            "en": "Reliable hosting for your website",
+            "fa": "میزبانی مطمئن برای وب‌سایت شما"
+          },
+          "icon": "services/antenna-icon-lg.webp",
+          "price": "30-120",
+          "duration": {
+            "en": "per month",
+            "fa": "در ماه"
+          },
+          "features": {
+            "en": [
+              "Reliable hosting for your website with fast loading times",
+              "Professional email address included (e.g. contact@yourdomain.com)",
+              "Secure server environment",
+              "Automatic daily backups to protect your data",
+              "Optimized for mobile and desktop visitors",
+              "Basic monitoring and support"
+            ],
+            "fa": [
+              "میزبانی مطمئن برای وب‌سایت شما با زمان بارگذاری سریع",
+              "آدرس ایمیل حرفه‌ای شامل (مثلا contact@yourdomain.com)",
+              "محیط سرور امن",
+              "پشتیبان‌گیری خودکار روزانه برای محافظت از داده‌های شما",
+              "بهینه‌سازی برای بازدیدکنندگان موبایل و دسکتاپ",
+              "مانیتورینگ و پشتیبانی اولیه"
+            ]
+          }
+        },
+        {
+          "name": {
+            "en": "Website Maintenance",
+            "fa": "نگهداری وب‌سایت"
+          },
+          "description": {
+            "en": "Keep your website up-to-date and secure",
+            "fa": "وب‌سایت خود را به‌روز و امن نگه دارید"
+          },
+          "icon": "services/website-maintenance-icon-lg.webp",
+          "price": "80-300",
+          "duration": {
+            "en": "per month",
+            "fa": "در ماه"
+          },
+          "features": {
+            "en": [
+              "Regular content and software updates",
+              "Security patches to keep your site safe",
+              "Performance optimization for faster pages",
+              "Monthly performance and security report",
+              "Priority support for any issues",
+              "Peace of mind knowing your website is maintained"
+            ],
+            "fa": [
+              "به‌روزرسانی منظم محتوا و نرم‌افزار",
+              "وصله‌های امنیتی برای حفظ ایمنی سایت",
+              "بهینه‌سازی عملکرد برای صفحات سریع‌تر",
+              "گزارش ماهانه عملکرد و امنیت",
+              "پشتیبانی اولویت‌دار برای هرگونه مشکل",
+              "آسودگی خاطر از اینکه وب‌سایت شما نگهداری می‌شود"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Automation & Scripts",
+        "fa": "اتوماسیون و اسکریپت‌ها"
+      },
+      "services": [
+        {
+          "name": {
+            "en": "Process Automation",
+            "fa": "اتوماسیون فرآیند"
+          },
+          "description": {
+            "en": "Automate repetitive tasks and workflows",
+            "fa": "اتوماسیون وظایف تکراری و گردش‌های کاری"
+          },
+          "icon": "services/automation-icon-lg.webp",
+          "price": "2100-6300",
+          "duration": {
+            "en": "1-3 weeks",
+            "fa": "۱-۳ هفته"
+          },
+          "features": {
+            "en": [
+              "Custom automation tailored to your business processes",
+              "Streamline repetitive tasks to save time and reduce errors",
+              "Scripts designed for reliability and maintainability",
+              "Integrates with existing tools and workflows",
+              "Clear documentation and handover included"
+            ],
+            "fa": [
+              "اتوماسیون شخصی سازی شده متناسب با فرآیندهای کسب‌وکار شما",
+              "بهبود وظایف تکراری برای صرفه‌جویی در زمان و کاهش خطاها",
+              "اسکریپت‌های طراحی شده برای قابلیت اطمینان و نگهداری",
+              "ادغام با ابزارها و گردش‌های کاری موجود",
+              "مستندات واضح و تحویل شامل"
+            ]
+          }
+        },
+        {
+          "name": {
+            "en": "Custom Scripts",
+            "fa": "اسکریپت‌های شخصی‌سازی شده"
+          },
+          "description": {
+            "en": "Custom scripts for specific needs",
+            "fa": "اسکریپت‌های شخصی‌سازی شده برای نیازهای خاص"
+          },
+          "icon": "services/script-icon-lg.webp",
+          "price": "1050-3500",
+          "duration": {
+            "en": "3-10 days",
+            "fa": "۳-۱۰ روز"
+          },
+          "features": {
+            "en": [
+              "Tailored scripts to meet your unique requirements",
+              "Optimized for speed and efficiency",
+              "Clean, well-documented code",
+              "Easy to maintain and update",
+              "Delivered with instructions for use"
+            ],
+            "fa": [
+              "اسکریپت‌های مناسب برای رفع نیازهای منحصر‌به‌فرد شما",
+              "بهینه‌سازی برای سرعت و کارایی",
+              "کد تمیز و مستند",
+              "آسان برای نگهداری و به‌روزرسانی",
+              "تحویل با دستورالعمل‌های استفاده"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "menuHeaderItems": {
+    "default": {
+      "en": ["File", "Edit", "View", "Tools"],
+      "fa": ["فایل", "ویرایش", "نمایش", "ابزارها"]
+    },
+    "minesweeper": {
+      "en": ["Game", "Help"],
+      "fa": ["بازی", "راهنما"]
+    },
+    "notepad": {
+      "en": ["File", "Edit", "View", "Help"],
+      "fa": ["فایل", "ویرایش", "نمایش", "راهنما"]
+    },
+    "images": {
+      "en": ["File", "Edit", "Favorites", "Tools", "Help"],
+      "fa": ["فایل", "ویرایش", "علاقه‌مندی‌ها", "ابزارها", "راهنما"]
+    },
+    "documents": {
+      "en": ["File", "Edit", "View", "Favorites", "Tools", "Help"],
+      "fa": ["فایل", "ویرایش", "نمایش", "علاقه‌مندی‌ها", "ابزارها", "راهنما"]
+    },
+    "contact": {
+      "en": ["File", "Edit", "View", "Insert", "Format", "Tools", "Message", "Help"],
+      "fa": ["فایل", "ویرایش", "نمایش", "درج", "قالب", "ابزارها", "پیام", "راهنما"]
+    },
+    "none": {
+      "en": [],
+      "fa": []
+    }
+  }
+}

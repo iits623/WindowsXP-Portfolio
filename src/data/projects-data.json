@@ -1,0 +1,211 @@
+{
+  "categories": [
+    {
+      "name": {
+        "en": "Books",
+        "fa": "کتاب‌ها"
+      },
+      "icon": "books-icon.webp",
+      "projects": [
+        {
+          "name": "word list for pentester",
+          "icon": "pdf-icon.webp",
+          "title": {
+            "en": "word list for pentester - Persian Translation",
+            "fa": "فهرست کلمات برای تست نفوذ"
+          },
+          "date": {
+            "en": "2024",
+            "fa": "۱۴۰۳"
+          },
+          "componentName": "ProjectContent",
+          "link": "https://t.me/pentifyteam/136",
+          "description": {
+            "en": "word list for pentester - Persian Translation",
+            "fa": "فهرست کلمات برای تست نفوذ"
+          }
+        },
+        {
+          "name": "Design Patterns",
+          "icon": "pdf-icon.webp",
+          "title": {
+            "en": "Design Patterns - Persian Translation",
+            "fa": "الگوهای طراحی - ترجمه فارسی"
+          },
+          "date": {
+            "en": "2024",
+            "fa": "۱۴۰۳"
+          },
+          "componentName": "ProjectContent",
+          "link": "https://t.me/your_channel",
+          "description": {
+            "en": "Complete Persian translation of Design Patterns book",
+            "fa": "ترجمه کامل فارسی کتاب الگوهای طراحی"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Courses",
+        "fa": "دوره‌ها"
+      },
+      "icon": "courses-icon.webp",
+      "projects": [
+        {
+          "name": "Translate Bootcamp",
+          "icon": "video-icon.webp",
+          "title": {
+            "en": "Become a translator",
+            "fa": "دوره مترجم شو"
+          },
+          "date": {
+            "en": "2024",
+            "fa": "۱۴۰۳"
+          },
+          "componentName": "ProjectContent",
+          "link": "https://t.me/pentifyteam/173",
+          "description": {
+            "en": "Become a translator",
+            "fa": "دوره مترجم شو"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Podcasts",
+        "fa": "پادکست‌ها"
+      },
+      "icon": "podcast-icon.webp",
+      "projects": [
+        {
+          "name": "Intruder Detection Robot Podcast",
+          "icon": "audio-icon.webp",
+          "title": {
+            "en": "Intruder Detection Robot Podcast",
+            "fa": "پادکست ربات مزاحم یاب"
+          },
+          "date": {
+            "en": "2024",
+            "fa": "۱۴۰۳"
+          },
+          "componentName": "ProjectContent",
+          "link": "https://t.me/pentifyteam/190",
+          "description": {
+            "en": "Persian podcast about software development",
+            "fa": "پادکست فارسی درباره توسعه نرم‌افزار"
+          }
+        },
+        {
+          "name": "Intruder Detection Robot Podcast",
+          "icon": "audio-icon.webp",
+          "title": {
+            "en": "Intruder Detection Robot Podcast",
+            "fa": "پادکست ربات مزاحم یاب"
+          },
+          "date": {
+            "en": "2024",
+            "fa": "۱۴۰۳"
+          },
+          "componentName": "ProjectContent",
+          "link": "https://t.me/pentifyteam/190",
+          "description": {
+            "en": "Persian podcast about software development",
+            "fa": "پادکست فارسی درباره توسعه نرم‌افزار"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Startups",
+        "fa": "استارتاپ‌ها"
+      },
+      "projects": [
+        {
+          "name": "Pentify",
+          "icon": "folder-icon.webp",
+          "title": {
+            "en": "Pentify",
+            "fa": "پنتیفای"
+          },
+          "date": {
+            "en": "2026",
+            "fa": "1405"
+          },
+          "componentName": "ProjectContent",
+          "link": "https://pentify.ir",
+          "description": {
+            "en": "Description of startup one",
+            "fa": "توضیحات استارتاپ اول"
+          }
+        },
+        {
+          "name": "BugLearn",
+          "icon": "folder-icon.webp",
+          "title": {
+            "en": "BugLearn",
+            "fa": "باگ لرن"
+          },
+          "date": {
+            "en": "2026",
+            "fa": "1405"
+          },
+          "componentName": "ProjectContent",
+          "link": "https://buglearn.ir",
+          "description": {
+            "en": "Description of startup two",
+            "fa": "توضیحات استارتاپ دوم"
+          }
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Translated Articles",
+        "fa": "مقاله‌های ترجمه شده"
+      },
+      "icon": "articles-icon.webp",
+      "projects": [
+        {
+          "name": "Hunting in the skies of Pyongyang;",
+          "icon": "text-file-icon.webp",
+          "title": {
+            "en": "Hunting in the skies of Pyongyang;",
+            "fa": "شکار در آسمان پیونگ‌یانگ"
+          },
+          "date": {
+            "en": "2024",
+            "fa": "۱۴۰۳"
+          },
+          "componentName": "ProjectContent",
+          "link": "https://t.me/pentifyteam/177",
+          "description": {
+            "en": "Description of article one",
+            "fa": "توضیحات شکار در آسمان پیونگ‌یانگ"
+          }
+        },
+
+        {
+          "name": "Hunting in the skies of Pyongyang;",
+          "icon": "text-file-icon.webp",
+          "title": {
+            "en": "Hunting in the skies of Pyongyang;",
+            "fa": "شکار در آسمان پیونگ‌یانگ"
+          },
+          "date": {
+            "en": "2024",
+            "fa": "۱۴۰۳"
+          },
+          "componentName": "ProjectContent",
+          "link": "https://t.me/pentifyteam/177",
+          "description": {
+            "en": "Description of article one",
+            "fa": "توضیحات شکار در آسمان پیونگ‌یانگ"
+          }
+        }
+      ]
+    }
+  ]
+}
