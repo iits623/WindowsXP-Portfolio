@@ -1,29 +1,33 @@
-import { fileURLToPath, URL } from 'node:url'
-import { dirname, resolve } from 'node:path'
+import { fileURLToPath, URL } from "node:url";
+import { dirname, resolve } from "node:path";
 
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import vueJsx from '@vitejs/plugin-vue-jsx'
-import VueDevTools from 'vite-plugin-vue-devtools'
-import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite'
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
+import vueJsx from "@vitejs/plugin-vue-jsx";
+import VueDevTools from "vite-plugin-vue-devtools";
+import VueI18nPlugin from "@intlify/unplugin-vue-i18n/vite";
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [
     vue(),
     VueDevTools(),
     vueJsx(),
     VueI18nPlugin({
-      include: resolve(dirname(fileURLToPath(import.meta.url)), 'src/locales/**'),
-    })
+      include: resolve(
+        dirname(fileURLToPath(import.meta.url)),
+        "src/locales/**",
+      ),
+    }),
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
+      "@": fileURLToPath(new URL("./src", import.meta.url)),
+    },
   },
   build: {
     sourcemap: true,
   },
-  base: '/WindowsXP-Portfolio/'
-})
+  // این بخش کلید اصلی است
+  base: command === "build" ? "/WindowsXP-Portfolio/" : "/",
+}));
