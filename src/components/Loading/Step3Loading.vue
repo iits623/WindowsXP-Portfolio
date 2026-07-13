@@ -10,7 +10,7 @@ import ContentCenter from '@/layouts/ContentCenter.vue'
 
     <template #center>
       <div class="md:w-4/12 w-64 ml-5 mb-10">
-        <img :src="`${import.meta.env.BASE_URL}img/logo-portfolio-black.webp" :alt="$t('alt.logoLoading')" />
+        <img :src="`${$baseUrl}img/logo-portfolio-black.webp" :alt="$t('alt.logoLoading')" />
       </div>
     </template>
 

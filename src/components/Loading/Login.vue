@@ -10,7 +10,7 @@
           <div>
             <div class="flex justify-end w-full">
               <div class="w-2/3">
-                <img :src="`${import.meta.env.BASE_URL}img/logo-portfolio-white.webp" :alt="$t('alt.logoLogin')" class="mb-3" />
+                <img :src="`${$baseUrl}img/logo-portfolio-white.webp" :alt="$t('alt.logoLogin')" class="mb-3" />
               </div>
             </div>
             <div class="w-full flex justify-end">

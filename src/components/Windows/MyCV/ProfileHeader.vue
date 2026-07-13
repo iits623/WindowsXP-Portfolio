@@ -6,7 +6,7 @@ const props = defineProps({
 
 <template>
   <div class="grid grid-flow-col auto-cols-max gap-2">
-    <img :src="`${import.meta.env.BASE_URL}img/icons/cv/Mehdi-jaguin-photo-cv.webp" alt="de mon cv" class="w-20 h-20" />
+    <img :src="`${$baseUrl}img/icons/cv/Mehdi-jaguin-photo-cv.webp" alt="de mon cv" class="w-20 h-20" />
     <div class="flex justify-center flex-col">
       <h1 class="font-trebuchet-pixel">Mehdi Rezaie</h1>
       <h2 class="font-trebuchet-pixel">{{ props.age + ' ' + $t('common.years') }}</h2>

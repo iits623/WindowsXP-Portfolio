@@ -1,44 +1,45 @@
-import '../css/main.css'
-import VueMatomo from 'vue-matomo'
-import '@/index.css'
+import "../css/main.css";
+import VueMatomo from "vue-matomo";
+import "@/index.css";
 
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
-import { createHead } from '@vueuse/head'
-import { createI18n } from 'vue-i18n'
+import { createApp } from "vue";
+import { createPinia } from "pinia";
+import { createHead } from "@vueuse/head";
+import { createI18n } from "vue-i18n";
 
-import en from './locales/en.json'
-import fa from './locales/fa.json'
+import en from "./locales/en.json";
+import fa from "./locales/fa.json";
 
-import App from './App.vue'
-import router from './router'
+import App from "./App.vue";
+import router from "./router";
 
-const app = createApp(App)
-const pinia = createPinia()
-const head = createHead()
+const app = createApp(App);
+const pinia = createPinia();
+const head = createHead();
 
 const i18n = createI18n({
   legacy: false,
-  locale: localStorage.getItem('currentLocale') || 'fa', 
-  fallbackLocale: 'en',
+  locale: localStorage.getItem("currentLocale") || "fa",
+  fallbackLocale: "en",
   messages: {
     en,
-    fa
-  }
-})
+    fa,
+  },
+});
 
+app.config.globalProperties.$baseUrl = import.meta.env.BASE_URL;
 
-app.use(pinia)
-app.use(router)
-app.use(head)
-app.use(i18n)
+app.use(pinia);
+app.use(router);
+app.use(head);
+app.use(i18n);
 
-if (import.meta.env.MODE === 'production') {
+if (import.meta.env.MODE === "production") {
   app.use(VueMatomo, {
-    host: 'https://matomo.rocketegg.systems',
-    siteId: 1
-  })
-  window._paq.push(['trackPageView'])
+    host: "https://matomo.rocketegg.systems",
+    siteId: 1,
+  });
+  window._paq.push(["trackPageView"]);
 }
 
-app.mount('#app')
+app.mount("#app");
