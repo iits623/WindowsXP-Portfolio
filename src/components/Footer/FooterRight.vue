@@ -97,7 +97,7 @@ const flagSrc = computed(() => {
         @click="toggleLanguageModal"
       />
     </div>
-    <img class="w-4 h-4 cursor-pointer" src="/img/icons/full-screen-icon-sm.webp" alt="Mode plein écran" :title="originalTitle" @click="enterFullScreen" />
+    <img class="w-4 h-4 cursor-pointer" src="/img/icons/full-screen-icon-sm.webp`" alt="Mode plein écran" :title="originalTitle" @click="enterFullScreen" />
     <img class="w-4 h-4 mt-px cursor-pointer" :src="volumeIconSrc" alt="Gestion du volume" title="Gestion du volume" @click.stop="toggleMusicModal" />
     <MusicVolumeModal v-if="isVolumeSettingsDisplayed" ref="musicModalRef" />
     <LanguageModal v-if="isLanguageSettingsDisplayed" :currentLocale="currentLocale" />

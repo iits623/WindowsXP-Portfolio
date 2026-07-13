@@ -45,10 +45,10 @@
           ></div>
           <div v-else class="absolute w-full h-full border-t-2 border-l-2 border-gray-128"></div>
           <img v-if="cell.uncovered && !cell.mine" :src="'/img/icons/minesweeper/open' + cell.neighborMines + '.webp'" alt="empty" class="w-full h-full p-0.5" />
-          <img v-if="cell.uncovered && cell.mine && cell.isClickedMine" src="/img/icons/minesweeper/mine-death.webp" alt="mine" class="w-full h-full p-0.5 bg-red" />
-          <img v-if="cell.uncovered && cell.mine && !cell.isClickedMine" src="/img/icons/minesweeper/mine-ceil.webp" alt="mine" class="w-full h-full p-0.5" />
-          <img v-if="!cell.uncovered && cell.flagged" src="/img/icons/minesweeper/flag.webp" alt="flag" class="relative z-10 w-full h-full p-0.5" />
-          <img v-if="!cell.uncovered && cell.questioned" src="/img/icons/minesweeper/question.webp" alt="question" class="relative z-10 w-full h-full p-0.5" />
+          <img v-if="cell.uncovered && cell.mine && cell.isClickedMine" src="/img/icons/minesweeper/mine-death.webp`" alt="mine" class="w-full h-full p-0.5 bg-red" />
+          <img v-if="cell.uncovered && cell.mine && !cell.isClickedMine" src="/img/icons/minesweeper/mine-ceil.webp`" alt="mine" class="w-full h-full p-0.5" />
+          <img v-if="!cell.uncovered && cell.flagged" src="/img/icons/minesweeper/flag.webp`" alt="flag" class="relative z-10 w-full h-full p-0.5" />
+          <img v-if="!cell.uncovered && cell.questioned" src="/img/icons/minesweeper/question.webp`" alt="question" class="relative z-10 w-full h-full p-0.5" />
         </div>
       </div>
     </div>
