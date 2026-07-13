@@ -228,6 +228,31 @@ img {
   filter: drop-shadow(blue 0px 0px);
 }
 
+/* ---------Dosbox---------*/
+.dosbox-container, .dosbox-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.dosbox-overlay {
+  background: url(https://js-dos.com/cdn/DOOM.png) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.dosbox-start {
+  color: white !important;
+}
+
+.buttons-header-bottom:hover {
+  background-color: rgba(60, 80, 210, 0.5);
+}
+
+.button-window-global-layout {
+  border-radius: 3px;
+  width: 23px;
+}
 
 .loading-bar {
   border: 2px solid #b2b2b2;

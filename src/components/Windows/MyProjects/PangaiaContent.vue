@@ -2,43 +2,43 @@
   <div class="text-xs md:text-header-window">
     <div class="flex text-xxs md:text-xs w-full items-center justify-center md:justify-start flex-wrap gap-4 md:min-w-80 md:ml-1">
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/vuejs.svg" :alt="$t('common.icon') + ' vuejs'" class="w-9 h-9 p-px" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/vuejs.svg" :alt="$t('common.icon') + ' vuejs'" class="w-9 h-9 p-px" />
         <p class="font-bold mt-px">Vue.js</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/laravel.svg" :alt="$t('common.icon') + ' laravel'" class="w-9 h-9" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/laravel.svg" :alt="$t('common.icon') + ' laravel'" class="w-9 h-9" />
         <p class="font-bold mt-px">Laravel</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/tailwind.svg" :alt="$t('common.icon') + ' tailwind'" class="w-9 h-9" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/tailwind.svg" :alt="$t('common.icon') + ' tailwind'" class="w-9 h-9" />
         <p class="font-bold mt-px">Tailwind</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/gnu.svg" :alt="$t('common.icon') + ' gnu'" class="w-9 h-9" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/gnu.svg" :alt="$t('common.icon') + ' gnu'" class="w-9 h-9" />
         <p class="font-bold mt-px">Makefile</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/mariadb.svg" :alt="$t('common.icon') + ' mariadb'" class="w-9 h-9" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/mariadb.svg" :alt="$t('common.icon') + ' mariadb'" class="w-9 h-9" />
         <p class="font-bold mt-px">Maria DB</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/swagger.svg" :alt="$t('common.icon') + ' swagger'" class="w-9 h-9" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/swagger.svg" :alt="$t('common.icon') + ' swagger'" class="w-9 h-9" />
         <p class="font-bold mt-px">Swagger</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/postman.svg" :alt="$t('common.icon') + ' postman'" class="w-9 h-9" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/postman.svg" :alt="$t('common.icon') + ' postman'" class="w-9 h-9" />
         <p class="font-bold mt-0.5">Postman</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/workbench.svg" :alt="$t('common.icon') + ' workbench'" class="w-9 h-9" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/workbench.svg" :alt="$t('common.icon') + ' workbench'" class="w-9 h-9" />
         <p class="font-bold">Workbench</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/looping.svg" :alt="$t('common.icon') + ' looping'" class="w-10 h-10" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/looping.svg" :alt="$t('common.icon') + ' looping'" class="w-10 h-10" />
         <p class="font-bold">Looping</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/docker.svg" :alt="$t('common.icon') + ' docker'" class="w-9 h-9" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/docker.svg" :alt="$t('common.icon') + ' docker'" class="w-9 h-9" />
         <p class="font-bold">Docker</p>
       </div>
     </div>
@@ -103,14 +103,14 @@
       <p class="italic text-gray-500 text-xxs md:text-xs mb-px">
         {{ $t('project.pangaia.CDMText') }}
       </p>
-      <img src="/img/projects/pangaia/pangaia-database-MCD.webp " :alt="$t('common.CDM') + ' - Pangaia'" class="w-full max-w-[750px]" />
+      <img src="/WindowsXP-Portfolio/img/projects/pangaia/pangaia-database-MCD.webp " :alt="$t('common.CDM') + ' - Pangaia'" class="w-full max-w-[750px]" />
     </div>
     <div>
       <h3 class="mt-5">{{ $t('common.PDM') }}</h3>
       <p class="italic text-gray-500 text-xxs md:text-xs">
         {{ $t('project.pangaia.PDMText') }}
       </p>
-      <img src="/img/projects/pangaia/MPD-Pangaia.svg" :alt="$t('common.PDM') + ' - Pangaia'" class="w-full" />
+      <img src="/WindowsXP-Portfolio/img/projects/pangaia/MPD-Pangaia.svg" :alt="$t('common.PDM') + ' - Pangaia'" class="w-full" />
     </div>
   </div>
   <a
@@ -119,7 +119,7 @@
     target="_blank"
     class="absolute flex items-center justify-center bottom-2 right-1 md:right-6 h-6 text-xs border border-twilight-blue bg-button-submit rounded-sm leading-loose px-3 hover:shadow-button-submit-hover cursor-pointer active:bg-button-clicked"
   >
-    <img src="/img/icons/projects/tools/web.svg" :alt="$t('buttons.linkWebSite') + ' ' +  ProjectName" class="w-3 h-3 mr-0.5"/>
+    <img src="/WindowsXP-Portfolio/img/icons/projects/tools/web.svg" :alt="$t('buttons.linkWebSite') + ' ' +  ProjectName" class="w-3 h-3 mr-0.5"/>
     {{ $t('buttons.linkWebSite') }}
   </a>
 </template>

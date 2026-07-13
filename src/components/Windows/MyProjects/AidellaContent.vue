@@ -2,42 +2,42 @@
   <section class="text-xs md:text-header-window">
     <div class="flex w-full text-xs items-center justify-center md:justify-start ml-px flex-wrap gap-4 md:min-w-80 md:ml-1">
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/laravel.svg" :alt="$t('common.icon') + ' laravel'" class="w-9 h-9" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/laravel.svg" :alt="$t('common.icon') + ' laravel'" class="w-9 h-9" />
         <p class="font-bold mt-px">Laravel</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/vuejs.svg" :alt="$t('common.icon') + ' vue.js'" class="w-9 h-9 p-px" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/vuejs.svg" :alt="$t('common.icon') + ' vue.js'" class="w-9 h-9 p-px" />
         <p class="font-bold mt-px">Vue.js</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/orchid.svg" :alt="$t('common.icon') + ' vue.js'" class="w-9 h-9 p-0.75" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/orchid.svg" :alt="$t('common.icon') + ' vue.js'" class="w-9 h-9 p-0.75" />
         <p class="font-bold mt-px">Orchid</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/tailwind.svg" :alt="$t('common.icon') + ' tailwind'" class="w-9 h-9" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/tailwind.svg" :alt="$t('common.icon') + ' tailwind'" class="w-9 h-9" />
         <p class="font-bold mt-px">Tailwind</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/gnu.svg" :alt="$t('common.icon') + ' GNU'" class="w-9 h-9" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/gnu.svg" :alt="$t('common.icon') + ' GNU'" class="w-9 h-9" />
         <p class="font-bold mt-px">Makefile</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/workbench.svg" :alt="$t('common.icon') + ' MySQL Workbench'"
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/workbench.svg" :alt="$t('common.icon') + ' MySQL Workbench'"
           class="w-9 h-9" />
         <p class="font-bold">Workbench</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/vscode.svg" :alt="$t('common.icon') + ' Visual Studio Code'"
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/vscode.svg" :alt="$t('common.icon') + ' Visual Studio Code'"
           class="w-9 h-9" />
         <p class="font-bold mt-px">VsCode</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/jenkins.svg" :alt="$t('common.icon') + ' jenkins'"
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/jenkins.svg" :alt="$t('common.icon') + ' jenkins'"
           class="w-9 h-auto p-px" />
         <p class="font-bold mt-px">CD</p>
       </div>
       <div class="flex flex-col items-center flex-wrap">
-        <img src="/img/icons/projects/tools/sonarqube.svg" :alt="$t('common.icon') + ' sonarqube'" class="w-7 h-7" />
+        <img src="/WindowsXP-Portfolio/img/icons/projects/tools/sonarqube.svg" :alt="$t('common.icon') + ' sonarqube'" class="w-7 h-7" />
         <p class="font-bold mt-px">Sonarqube</p>
       </div>
     </div>
@@ -58,7 +58,7 @@
     <div>
       <p class="font-semibold italic text-gray-500 mb-2">{{ $t('project.aidella.tasksDoneFirst') }}</p>
       <p class="mb-2">{{ $t('project.aidella.tasksDoneFirstDetails') }}</p>
-      <img src="/img/projects/aidella/database-modelisation-aidella.webp"
+      <img src="/WindowsXP-Portfolio/img/projects/aidella/database-modelisation-aidella.webp"
         :alt="$t('common.PDM') + ' - ' + ProjectName" class="w-full max-w-[750px] mb-2" />
     </div>
     <div class="mt-5 mb-2">
@@ -74,17 +74,17 @@
       <p class="mb-2">{{ $t('project.aidella.tasksDoneFourthDetails') }}</p>
       <div>
         <p class="text-xs md:text-sm font-semibold">Dashboard</p>
-        <img src="/img/projects/aidella/dashboard-aidella.webp"
+        <img src="/WindowsXP-Portfolio/img/projects/aidella/dashboard-aidella.webp"
           :alt="'Back-office - ' + ProjectName" class="w-full max-w-[750px] mb-2" />
         <p class="text-xs md:text-sm font-semibold">{{ $t('common.list') }}</p>
-        <img src="/img/projects/aidella/list-race-dog-aidella.webp"
+        <img src="/WindowsXP-Portfolio/img/projects/aidella/list-race-dog-aidella.webp"
           :alt="'Back-office - ' + ProjectName" class="w-full max-w-[750px] mb-2" />
         <p class="text-xs md:text-sm font-semibold">{{ $t('common.modifications') }}</p>
-        <img src="/img/projects/aidella/main-content-dog-aidella.webp"
+        <img src="/WindowsXP-Portfolio/img/projects/aidella/main-content-dog-aidella.webp"
           :alt="'Back-office - ' + ProjectName" class="w-full max-w-[750px] mb-2" />
-        <img src="/img/projects/aidella/modify-content-dog-aidella.webp"
+        <img src="/WindowsXP-Portfolio/img/projects/aidella/modify-content-dog-aidella.webp"
           :alt="'Back-office - ' + ProjectName" class="w-full max-w-[750px] mb-2" />
-        <img src="/img/projects/aidella/seo-dog-post-aidella.webp"
+        <img src="/WindowsXP-Portfolio/img/projects/aidella/seo-dog-post-aidella.webp"
           :alt="'Back-office - ' + ProjectName" class="w-full max-w-[750px] mb-2" />
       </div>
     </div>
@@ -92,7 +92,7 @@
       <p class="font-semibold italic text-gray-500 mb-2">{{ $t('project.aidella.tasksDoneFifth') }}</p>
       <p class="mb-2">{{ $t('project.aidella.tasksDoneFifthDetails') }}</p>
       <p class="mb-2">{{ $t('project.aidella.tasksDoneFifthDetailsSecond') }}</p>
-        <img src="/img/projects/aidella/jenkins-pipeline-aidella.webp"
+        <img src="/WindowsXP-Portfolio/img/projects/aidella/jenkins-pipeline-aidella.webp"
          :alt="'Back-office - ' + ProjectName" class="w-full max-w-[750px] mb-2" />
     </div>
     <div
@@ -107,7 +107,7 @@
   </section>
   <a rel="noopener" href="https://www.elevage-canin-vosges.fr" target="_blank"
     class="absolute bottom-2 right-1 md:right-6 h-6 text-xxs border border-twilight-blue bg-button-submit rounded-sm leading-loose px-3 hover:shadow-button-submit-hover cursor-pointer active:bg-button-clicked flex items-center justify-center">
-    <img src="/img/icons/projects/tools/web.svg" :alt="'View website ' + ProjectName" class="w-3 h-3 mr-0.5" />
+    <img src="/WindowsXP-Portfolio/img/icons/projects/tools/web.svg" :alt="'View website ' + ProjectName" class="w-3 h-3 mr-0.5" />
     {{ $t('buttons.linkWebSite') }}
   </a>
 </template>
