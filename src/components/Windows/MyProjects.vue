@@ -163,7 +163,7 @@ defineExpose({
 
     <div v-else class="w-full h-full bg-[#d4d0c8] flex items-center justify-center">
       <div class="text-center">
-        <img src="/img/icons/folder-icon.webp" class="w-20 h-20 mx-auto opacity-50" />
+        <img :src="`${import.meta.env.BASE_URL}img/icons/folder-icon.webp" class="w-20 h-20 mx-auto opacity-50" />
         <p class="text-sm text-gray-600 font-tahoma mt-3">{{ localizedEmptyTitle }}</p>
         <p class="text-xs text-gray-400 font-tahoma">{{ localizedEmptySubtitle }}</p>
       </div>
