@@ -28,6 +28,5 @@ export default defineConfig(({ command }) => ({
   build: {
     sourcemap: true,
   },
-  // این بخش کلید اصلی است
   base: command === "build" ? "/WindowsXP-Portfolio/" : "/",
 }));
