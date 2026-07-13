@@ -28,20 +28,12 @@ export default defineConfig(({ command }) => ({
     sourcemap: true,
     rollupOptions: {
       output: {
-        assetFileNames: 'assets/[name].[hash][extname]',
-        chunkFileNames: 'assets/[name].[hash].js',
-        entryFileNames: 'assets/[name].[hash].js',
-      }
-    }
-  },
-  base: command === "build" ? "/WindowsXP-Portfolio/" : "/",
-  experimental: {
-    renderBuiltUrl(filename, { hostType }) {
-      // فقط برای فایل‌های img در بیلد
-      if (hostType === 'html' && filename.startsWith('img/')) {
-        return `/WindowsXP-Portfolio/${filename}`;
-      }
-      return filename;
+        assetFileNames: "assets/[name].[hash][extname]",
+        chunkFileNames: "assets/[name].[hash].js",
+        entryFileNames: "assets/[name].[hash].js",
+      },
     },
   },
+  base: command === "build" ? "/WindowsXP-Portfolio/" : "/",
+  // بخش experimental را به طور کامل حذف کنید
 }));
