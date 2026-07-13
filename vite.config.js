@@ -35,5 +35,4 @@ export default defineConfig(({ command }) => ({
     },
   },
   base: command === "build" ? "/WindowsXP-Portfolio/" : "/",
-  // بخش experimental را به طور کامل حذف کنید
 }));
