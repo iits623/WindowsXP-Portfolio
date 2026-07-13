@@ -103,7 +103,7 @@ const flagSrc = computed(() => {
     </div>
     <img
       class="w-4 h-4 cursor-pointer"
-      :src="`${import.meta.env.BASE_URL}img/icons/full-screen-icon-sm.webp`"
+      :src="`${$baseUrl}img/icons/full-screen-icon-sm.webp`"
       alt="Mode plein écran"
       :title="originalTitle"
       @click="enterFullScreen"
