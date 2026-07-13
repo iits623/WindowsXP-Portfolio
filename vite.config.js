@@ -1,6 +1,6 @@
 import { fileURLToPath, URL } from "node:url";
 import { dirname, resolve } from "node:path";
-
+import rewriteAll from "vite-plugin-rewrite-all";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
@@ -13,6 +13,7 @@ export default defineConfig(({ command }) => ({
     vue(),
     VueDevTools(),
     vueJsx(),
+    rewriteAll(),
     VueI18nPlugin({
       include: resolve(
         dirname(fileURLToPath(import.meta.url)),
