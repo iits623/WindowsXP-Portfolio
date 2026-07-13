@@ -21,3 +21,4 @@ import ContentCenter from '@/layouts/ContentCenter.vue'
     </template>
   </ContentCenter>
 </template>
+

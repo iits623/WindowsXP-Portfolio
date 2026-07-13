@@ -39,3 +39,4 @@ const classes = computed(() => {
     <slot />
   </component>
 </template>
+

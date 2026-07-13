@@ -12,3 +12,4 @@ import { ref } from 'vue'
 
 const noteContent = ref('')
 </script>
+

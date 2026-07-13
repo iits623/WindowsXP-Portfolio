@@ -26,3 +26,4 @@
     </defs>
   </svg>
 </template>
+

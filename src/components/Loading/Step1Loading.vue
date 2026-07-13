@@ -6,3 +6,4 @@ import ContentCenter from '@/layouts/ContentCenter.vue'
   <!-- Step 1 -->
   <ContentCenter class="bg-black" />
 </template>
+

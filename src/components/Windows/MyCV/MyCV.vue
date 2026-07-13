@@ -35,3 +35,4 @@ const currentLocale = computed(() => localeStore.currentLocale)
     {{ $t('buttons.downloadCV') }}
   </a>
 </template>
+

@@ -11,3 +11,4 @@ const props = defineProps({
   education: Object
 })
 </script>
+

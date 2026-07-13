@@ -57,3 +57,4 @@ const title = computed(() => {
   return formattedName ? `${props.title}/${formattedName}` : props.title
 })
 </script>
+

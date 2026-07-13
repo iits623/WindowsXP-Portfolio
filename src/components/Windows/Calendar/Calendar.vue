@@ -131,3 +131,4 @@ function nextMonth() {
   calculateDaysOfMonth(currentYearValue.value, currentMonth.value)
 }
 </script>
+

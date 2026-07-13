@@ -49,3 +49,4 @@ import WindowsIcon from '@/components/icons/WindowsIcon.vue'
     10px 12px 48px 0px rgba(0, 0, 0, 0.34) inset;
 }
 </style>
+

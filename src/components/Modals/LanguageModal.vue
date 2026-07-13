@@ -49,3 +49,4 @@ const handleLanguageSwitch = () => {
     </div>
   </section>
 </template>
+

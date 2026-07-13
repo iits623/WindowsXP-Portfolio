@@ -312,3 +312,4 @@ const resizeWindow = (event) => {
   display: block;
 }
 </style>
+

@@ -15,3 +15,4 @@ const props = defineProps({
   workExperience: Object
 })
 </script>
+

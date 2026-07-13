@@ -118,3 +118,4 @@ const filteredLocales = computed(() => {
   return locales.filter((l) => l !== currentLocale.value)
 })
 </script>
+

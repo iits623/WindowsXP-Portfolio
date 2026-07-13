@@ -5,3 +5,4 @@
     <div class="loading-box inline-block h-5/6 w-4"></div>
   </div>
 </template>
+

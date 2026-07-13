@@ -148,3 +148,4 @@ const scrollToBottom = () => {
   terminalContainer.value.scrollTop = terminalContainer.value.scrollHeight
 }
 </script>
+

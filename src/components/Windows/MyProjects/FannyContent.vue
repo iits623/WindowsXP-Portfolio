@@ -73,3 +73,4 @@ let ProjectName = 'Portfolio Fanny';
 let ProjectLink = 'https://fanny-seraudie.fr';
 </script>
 
+
