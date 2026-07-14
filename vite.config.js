@@ -6,8 +6,11 @@ import vueJsx from "@vitejs/plugin-vue-jsx";
 import VueDevTools from "vite-plugin-vue-devtools";
 import VueI18nPlugin from "@intlify/unplugin-vue-i18n/vite";
 
+const BASE_PATH = "/WindowsXP-Portfolio/";
+
 // https://vitejs.dev/config/
 export default defineConfig(({ command }) => ({
+  base: command === "build" ? BASE_PATH : "/",
   plugins: [
     vue(),
     VueDevTools(),
@@ -34,5 +37,4 @@ export default defineConfig(({ command }) => ({
       },
     },
   },
-  base: command === "build" ? "/WindowsXP-Portfolio/" : "/",
 }));

@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useGoBackStore } from '@/stores/goBackStore'
-import headerToolsData from '@/data/header-tools-data.json'
+import { windowsData, headerToolsData, leftMenuData } from '@/data';
 
 const goBackStore = useGoBackStore()
 
